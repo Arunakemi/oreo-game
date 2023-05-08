@@ -1,0 +1,37 @@
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="./assets/style.css">
+  </head>
+  <body>
+    <div id="mainData">
+        <!-- START -->
+      <div id="Bienvenida"    style='background-image:url("assets/img/pantalla1_fondo.png");'>
+        <div style="margin-top:95%;" class="divider"></div>
+        <button class="imageButton" onclick="changePantalla('Registro')"><img src="assets/img/boton_jugar.png"/></button>
+      </div>
+      <div id="Registro"      style='background-image:url("assets/img/pantalla2_fondo.png");'>
+        <div style="margin-top: 73%;" class="divider"></div>
+        <div class="reg" ><input id="formNombre"   type="text" required placeholder="Nombre"></div>
+        <div class="reg" ><input id="formApellido" type="text" required placeholder="Apellido"></div>
+        <div class="reg" ><input id="formEmail"    type="text" required placeholder="Email"></div>
+        <div style="margin-top:25%;" class="divider"></div>
+        <button class="imageButton" onclick="changePantalla('Instrucciones')"><img src="assets/img/boton_siguiente.png"/></button>  
+      </div>
+      <div id="Instrucciones" style='background-image:url("assets/img/pantalla3_fondo.png");'>
+        <div style="margin-top:130%;" class="divider"></div>
+        <button class="imageButton" onclick="changePantalla('Juego')"><img src="assets/img/boton_siguiente.png"/></button>      
+      </div>
+      <div id="Juego">
+        <canvas id="gameCanvas"></canvas>
+      </div>
+      <div id="Puntuacion"    style='background-image:url("assets/img/pantalla4_fondo.png");'>
+        <div id="puntosFinales" class="puntuacion">20</div>
+        <button class="imageButton" onclick="changePantalla('Bienvenida')"><img src="assets/img/boton_siguiente.png"/></button>      
+      </div>
+
+    </div>
+    <script src="./assets/js/idx.js"></script>
+  </body>
+</html>

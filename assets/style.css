@@ -1,0 +1,104 @@
+.reg {
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 4.5vw;
+}
+
+.puntuacion
+{
+    margin-top: 68%;
+    margin-bottom: 15%;
+    font-size: 800%;
+    color: white;
+    text-align: center;
+}
+
+.galletaButton
+{
+
+}
+
+button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text]
+{
+    background-color: transparent;
+    border: none;
+    padding-left: 2vw;
+    font-size: 75%;
+    width: 100%;
+}
+
+.internal
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-size: 100%;
+    background-attachment:local;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    position: relative;
+    float: left;
+    height: auto;
+}
+
+#mainData {
+    font-size: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #007215;
+    text-align: center;
+
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.divider
+{
+    width: 100%; 
+    position:relative; 
+    float:left;
+}
+
+.imageButton
+{
+    margin-left: 32%;
+    padding: 0;
+    float: left;
+    position: relative;
+    width: 36%;
+    height: auto;
+    pointer-events: auto;
+}
